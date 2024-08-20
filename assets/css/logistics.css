@@ -1,0 +1,276 @@
+/* ===================================
+    Crafto - Logistics 
+====================================== */
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+/* variable */
+:root {      
+    --alt-font: "Urbanist", sans-serif;
+    --primary-font: "Urbanist", sans-serif;
+    --base-color: rgba(225, 20, 131, 1);
+    --dark-gray: #141414;
+    --medium-gray: #707070;
+    --aluminium-grey: rgba(255, 255, 255, 0.4);
+    --modified-base-color:rgba(225, 20, 131, 1);
+    
+}
+/* reset */
+body{
+    font-size: 18px;
+    line-height: 30px;
+}
+a:hover{
+    color: var(--dark-gray);
+}
+/* header */
+.navbar .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 600;
+}
+.navbar .navbar-nav .dropdown.open .dropdown-menu {
+    background-color: var(--dark-gray);
+}
+.navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu li a {
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--white);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+header .navbar-brand img {
+    /* max-height: 30px; */
+}
+.header-top-bar div>a {
+    color: var(--light-gray);
+}
+.header-top-bar div>a:hover {
+    color: var(--white);
+}
+.navbar .navbar-nav .dropdown.dropdown-with-icon-style02 .dropdown-menu li a i {
+    font-size: 30px;
+}
+.navbar .navbar-nav .dropdown .dropdown-menu a i {
+    width: 35px;
+}
+header .btn.btn-box-shadow.btn-base-color,
+.btn.btn-base-color {
+    color: var(--dark-gray);
+}
+header .btn.btn-box-shadow.btn-base-color:hover,
+.btn.btn-box-shadow.btn-base-color:hover {
+    color: var(--dark-gray);
+}
+header .btn.btn-small {
+    font-size: 15px; 
+    padding: 10px 18px;
+}
+/* btn */
+.btn.btn-hover-animation-switch.btn-link {
+    padding-top: 0;
+}
+.btn { 
+    text-transform: inherit;
+    font-weight: 600;
+    letter-spacing: 0;
+}
+.btn.btn-extra-large {
+    font-size: 18px;
+    padding: 16px 32px;
+}
+.btn.btn-large {
+    font-size: 17px;
+    padding: 14px 28px;
+}
+.btn.btn-medium {
+    font-size: 16px; 
+    padding: 12px 24px;
+}
+.btn.btn-small {
+    font-size: 15px;
+}
+.btn.btn-very-small {
+    font-size: 14px; 
+    padding: 9px 20px;
+}
+
+/* counter style */
+.counter-style-04 .vertical-counter:after {
+    color: var(--base-color);
+}
+.review-star-icon i {
+    color: var(--modified-base-color);
+}
+
+/* footer style */
+footer ul li {
+    margin-bottom: 1px;
+}
+footer p {
+    line-height: 28px;
+}
+/* page title */
+.page-title-double-large h1 {
+    font-size: 4.375rem;
+    line-height: 4.688rem;
+}
+.page-title-double-large h2 {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/* top bottom left right class */
+.right-12 {
+    right: 12%;
+}
+
+.bg-jungle-green {
+    background-color: #2ebb79;
+}
+/* Outside box */
+.outside-box-top-205px {
+    margin-top: -205px;
+}
+/* Transparent background color */
+.bg-gradient-gray-light-dark-transparent {
+    background-image: linear-gradient(to top, #f7f7f7 0%, transparent 100%);
+}
+@media (max-width: 1399px) {
+    .xl-h-180px {
+        height: 180px;
+    }
+    .xl-w-180px {
+        width: 180px;
+    }
+}
+@media (max-width: 1199px) {
+    .outside-box-top-200px {
+        margin-top: -150px;
+    }
+}
+@media (max-width: 991px) {
+    .outside-box-top-200px {
+        margin-top: 0;
+    }
+    .navbar .navbar-nav .dropdown.open .dropdown-menu {
+        padding-bottom: 15px;
+    }
+}
+/*Added css*/
+.masthead {
+    background: linear-gradient(135deg, rgba(225, 20, 131, 0.5) 0%, rgba(36, 114, 170, 0.5) 100%);
+    padding-top: 9.5rem;
+    padding-bottom: 5rem;
+  }
+
+  .masthead .masthead-device-mockup .circle .gradient-start-color {
+    stop-color: #2937f0;
+  }
+  .masthead .masthead-device-mockup .circle .gradient-end-color {
+    stop-color: #9f1ae2;
+  }
+
+  .masthead .masthead-device-mockup .device-wrapper {
+    max-width: 10rem;
+  }
+  @media (min-width: 576px) {
+    .masthead .masthead-device-mockup .circle {
+      width: 70%;
+      display: block;
+    }
+    .masthead .masthead-device-mockup .device-wrapper {
+      max-width: 12.5rem;
+    }
+  }
+  @media (min-width: 768px) {
+    .masthead .masthead-device-mockup .circle {
+      width: 60%;
+    }
+    .masthead .masthead-device-mockup .device-wrapper {
+      max-width: 15rem;
+    }
+  }
+  @media (min-width: 992px) {
+    .masthead .masthead-device-mockup .circle {
+      width: 90%;
+    }
+    .masthead .masthead-device-mockup .device-wrapper {
+      max-width: 15rem;
+    }
+  }
+  @media (min-width: 1200px) {
+    .masthead .masthead-device-mockup .circle {
+      width: 75%;
+    }
+    .masthead .masthead-device-mockup .device-wrapper {
+      max-width: 15rem;
+    }
+  }
+  @media (min-width: 1400px) {
+    .masthead .masthead-device-mockup .circle {
+      width: 70%;
+    }
+    .masthead .masthead-device-mockup .device-wrapper {
+      max-width: 17rem;
+    }
+}
+.shadow-box-modified{
+    box-shadow: 0px 4px 10px rgba(225, 20, 131, 0.3), 0px 4px 10px rgba(36, 114, 170, 0.3);
+    padding:15px 25px
+}
+.overlay-modified {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Grey color with 50% opacity */
+    z-index: 1;
+}
+/*End*/
+/*about us*/
+.bg-base-color-aboutus{
+    background: #c2e59c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.text-color-for-bg{
+    color: #0a2a47;
+}
+.border-color-base-color-aboutus{
+    border-color: #c2e59c!important;
+}
+.icon-base-color-aboutus{
+    color: #c2e59c!important;
+}
+/*end*
+/*courier*/
+.bg-base-color-courier{
+    background: #5f2c82;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.text-color-for-bg-courier{
+    color:#E0E0E0;
+}
+
+.icon-base-color-courier{
+    color: #c2e59c!important;
+}
+.btn-base-color-courier{
+    background-color: #5f2c82;
+}
+.border-color-base-color-courier{
+    border-color: #5f2c82!important;
+}
+
+/*end*/
+/*Excess Baggage*/
+.bg-base-color-baggage{
+    background: #3D7EAA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFE47A, #3D7EAA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFE47A, #3D7EAA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.bg-color-button-baggage{
+    background:#008080
+}
